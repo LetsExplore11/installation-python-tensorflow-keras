@@ -1,0 +1,49 @@
+1. Install Anaconda from 
+help: https://www.anaconda.com/download/#windows
+
+2. Anaconda prompt/ cmd
+conda create -n tensorflow pip python=3.5
+
+3. activate tensorflow environment  
+conda activate tensorflow
+
+4. install tensorflow 1.7.0
+conda install -c jjhelmus tensorflow
+help: https://stackoverflow.com/questions/37041511/how-to-use-tensorflow-on-spyder
+help: https://anaconda.org/jjhelmus/tensorflow
+
+or this bellow is not working
+install tensorflow 1.5.0 version from following repository
+pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.5.0-cp35-cp35m-win_amd64.whl
+
+5. check version of tensorflow
+import tensorflow as tf
+print(tf.__version__)
+
+6. install keras
+conda install -c conda-forge keras
+help: https://anaconda.org/conda-forge/keras
+
+7. install opencv 3.3.1
+conda install -c jjhelmus opencv
+help: https://anaconda.org/jjhelmus/opencv
+help: https://anaconda.org/jjhelmus/repo
+
+8. install PILL:
+pip install Pillow
+
+help: resolve following error, need to install Pillow
+ImportError: DLL load failed: The specified module could not be found.
+
+
+9. python version:
+import sys
+print(sys.version)
+
+NOte:
+1. https://medium.com/@pushkarmandot/installing-tensorflow-theano-and-keras-in-spyder-84de7eb0f0df
+2. https://www.tensorflow.org/install/install_windows
+3. https://www.anaconda.com/download/#windows
+
+
+
